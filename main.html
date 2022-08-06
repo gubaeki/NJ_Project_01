@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>낙붕로또</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="res/logo.gif" alt="logo"
+                 style="max-width:90%; height:auto; margin:5% auto;"/>
+        </div>
+        <div class="two"></div>
+        <div class="button-container">
+            <div class="button-one"></div>
+            <div class="button-two">
+                <input type="image" src="res/start.jpg" alt="시작하기" onclick="location.href='shot.html'"
+                        style="max-width:90%; height:auto;"/>
+            </div>
+            <div class="button-three">
+                <input type="image" src="res/setting.jpg" alt="설정하기" onclick="location.href='setting.html'"
+                        style="max-width:90%; height:auto;"/>
+            </div>
+            <div class="button-four">
+                <input type="image" src="res/finish.jpg" alt="끝내기" onClick="WinClose()"
+                        style="max-width:90%; height:auto;"/>
+            </div>
+            <div class="button-five">made by NJ</div>
+        </div>
+        <div class="five"></div>
+    </div>
+</body>
+
+<script>
+function WinClose(){
+	window.open('','_self').close(); 
+}
+
+
+</script>
+
+
+</html>

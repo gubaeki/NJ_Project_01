@@ -1,0 +1,68 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    max-width: 1284px;
+    height: 100%;
+    max-height: 2778px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    background-image: url("../res/backimg1.gif");
+    justify-content:stretch;
+    align-content: stretch;
+  }
+  .header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    text-align: center;
+    vertical-align: center;
+  }
+  .two {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .three {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .button-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .button-one {
+    grid-row: 1;
+    text-align: center;
+    align-self: center;
+  }
+  .button-two {
+    grid-row: 2;
+    text-align: center;
+    align-self: center;
+  }
+  .button-three {
+    grid-row: 3;
+    text-align: center;
+    align-self: center;
+  }
+  .button-four {
+    grid-row: 4;
+    text-align: center;
+    align-self: center;
+  }
+  .button-five {
+    grid-row: 5;
+    text-align: center;
+    align-self: end;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+  }
