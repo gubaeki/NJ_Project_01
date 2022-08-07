@@ -69,3 +69,117 @@ html, body {
     font-size: 1.2em;
     margin-bottom: 5%;
   }
+
+
+  .container_shot {
+    display: grid;
+    width: 100%;
+    max-width: 1284px;
+    height: 100%;
+    max-height: 2778px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    background-image: url("../res/backimg1.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content:stretch;
+    align-content: stretch;
+  }
+  .goback {
+    grid-column: 1 / 9;
+    grid-row: 1;
+    text-align: right;
+    vertical-align: center;
+  }
+  .previous_number_title {
+    grid-column: 1 / 9;
+    grid-row: 2;
+    text-align: center;
+    align-self: center;
+    font-size: 700%;
+    color: rgb(229, 255, 0);
+    font-family: 'TmoneyRoundWindExtraBold';
+  }
+  .previous_number {
+    grid-column: 1 / 9;
+    grid-row: 3;
+    text-align: center;
+    align-self: center;
+  }
+  .num_1 {
+    grid-column: 1 / 9;
+    grid-row: 6;
+    text-align: center;
+    align-self: center;
+    background-color: white;
+  }
+  .num_2 {
+    grid-column: 1 / 9;
+    grid-row: 7;
+    text-align: center;
+    align-self: center; 
+    background-color: black
+  }
+  .num_3 {
+    grid-column: 1 / 9;
+    grid-row: 8;
+    text-align: center;
+    align-self: center;
+    background-color: green
+  }
+  .num_4 {
+    grid-column: 1 / 9;
+    grid-row: 9;
+    text-align: center;
+    align-self: center; 
+    background-color: blue
+  }
+  .num_5 {
+    grid-column: 1 / 9;
+    grid-row: 10;
+    text-align: center;
+    align-self: center;
+    background-color: pink
+  }
+.shotting {
+  grid-column: 1 / 9;
+  grid-row: 11 / 15;
+  text-align: center;
+  align-self: center;
+  background-color: gray
+}
+
+@font-face {
+  font-family: 'TmoneyRoundWindExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ball_645 {
+  display: inline-block;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: 500;
+  background-color: aqua;
+}
+.ball_645.balldefault {
+  background: #69c8f2;
+  text-shadow: 0px 0px 3px rgb(0 49 70 / 80%);
+  margin:20px;
+}
+.ball_645.lrg {
+  width: 100px;
+  height: 100px;
+  line-height: 90px;
+  font-size: 28px;
+  font-size: 350%;
+}
+.ball_645.ballpick {
+  background: #eb3a49;
+  text-shadow: 0px 0px 3px rgb(0 49 70 / 80%);
+  margin:20px;
+}
