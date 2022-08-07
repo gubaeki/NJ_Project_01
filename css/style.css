@@ -107,47 +107,57 @@ html, body {
     text-align: center;
     align-self: center;
   }
-  .num_1 {
+  .previous_number_down {
     grid-column: 1 / 9;
+    grid-row: 4;
+    text-align: center;
+    height: 100px;
+  }
+  .num_1 {
+    grid-column: 2 / 8;
     grid-row: 6;
     text-align: center;
     align-self: center;
-    background-color: white;
+    border-style: dashed;
+    border-color: #fff;
   }
   .num_2 {
-    grid-column: 1 / 9;
+    grid-column: 2 / 8;
     grid-row: 7;
     text-align: center;
     align-self: center; 
-    background-color: black
+    border-style: dashed;
+    border-color: #fff;
   }
   .num_3 {
-    grid-column: 1 / 9;
+    grid-column: 2 / 8;
     grid-row: 8;
     text-align: center;
     align-self: center;
-    background-color: green
+    border-style: dashed;
+    border-color: #fff;
   }
   .num_4 {
-    grid-column: 1 / 9;
+    grid-column: 2 / 8;
     grid-row: 9;
     text-align: center;
     align-self: center; 
-    background-color: blue
+    border-style: dashed;
+    border-color: #fff;
   }
   .num_5 {
-    grid-column: 1 / 9;
+    grid-column: 2 / 8;
     grid-row: 10;
     text-align: center;
     align-self: center;
-    background-color: pink
+    border-style: dashed;
+    border-color: #fff;
   }
 .shotting {
   grid-column: 1 / 9;
   grid-row: 11 / 15;
   text-align: center;
   align-self: center;
-  background-color: gray
 }
 
 @font-face {
@@ -164,22 +174,43 @@ html, body {
   vertical-align: middle;
   color: #fff;
   font-weight: 500;
+  border:3px solid black;
   background-color: aqua;
 }
-.ball_645.balldefault {
-  background: #69c8f2;
-  text-shadow: 0px 0px 3px rgb(0 49 70 / 80%);
+.ball_6452 {
+  display: inline-block;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  border:3px solid black;
+}
+.ball_6452.balldefault {
+  background: #ffc7c7;
   margin:20px;
 }
-.ball_645.lrg {
+.ball_6452.lrg {
   width: 100px;
   height: 100px;
   line-height: 90px;
   font-size: 28px;
   font-size: 350%;
 }
+.ball_645.lrg2 {
+  width: 80px;
+  height: 80px;
+  line-height: 70px;
+  font-size: 28px;
+  font-size: 350%;
+}
 .ball_645.ballpick {
   background: #eb3a49;
-  text-shadow: 0px 0px 3px rgb(0 49 70 / 80%);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
   margin:20px;
+}
+.ball_645.ballbonus {
+  background: #fffb00;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  margin:10px;
 }
