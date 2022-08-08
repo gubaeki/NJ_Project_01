@@ -189,41 +189,39 @@ html, body {
 }
 .ball_6452.balldefault {
   background: #ffffff;
-  margin:20px;
+  margin:10px;
 }
 .ball_6452.ball01 {
   background: #f5d522;
-  margin:20px;
+  margin:10px;
 }
 .ball_6452.ball11 {
   background: #63eef3;
-  margin:20px;
+  margin:10px;
 }
 .ball_6452.ball21 {
   background: #e0624c;
-  margin:20px;
+  margin:10px;
 }
 .ball_6452.ball31 {
   background: #ced3d3;
-  margin:20px;
+  margin:10px;
 }
 .ball_6452.ball41 {
   background: #6ce07c;
-  margin:20px;
+  margin:10px;
 }
 
 .ball_6452.lrg {
   width: 100px;
   height: 100px;
   line-height: 90px;
-  font-size: 28px;
   font-size: 350%;
 }
 .ball_645.lrg2 {
   width: 80px;
   height: 80px;
   line-height: 70px;
-  font-size: 28px;
   font-size: 350%;
 }
 .ball_645.ballpick {
