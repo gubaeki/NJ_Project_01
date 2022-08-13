@@ -1,1 +1,22 @@
-<button type="button" onclick="location.href='index.html'">돌아가기</button>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>낙붕로또</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="java.js"></script>
+</head>
+
+<body>
+
+    <script>
+        document.write("test")
+
+    fetch('https://dhlottery.co.kr/gameResult.do?method=byWin')
+     .then((response) => response.json())
+     .then((data) => document.write(data));
+    </script>
+    <button type="button" onclick="taken()">돌아가기</button>
+
+</body>
